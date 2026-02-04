@@ -153,20 +153,20 @@ sensor:
   # BME680 air quality sensor
   - platform: bme680
     temperature:
-      name: "BME680 Temperature"
+      name: "Temperature"
       oversampling: 16x
     pressure:
-      name: "BME680 Pressure"
+      name: "Pressure"
     humidity:
       id: "humidity"
-      name: "BME680 Humidity"
+      name: "Humidity"
     gas_resistance:
       id: "gas_resistance"
-      name: "BME680 Gas Resistance"
+      name: "Gas Resistance"
     address: 0x76
     update_interval: 5s
   - platform: template
-    name: "BME680 Indoor Air Quality"
+    name: "Indoor Air Quality"
     id: iaq
     icon: "mdi:gauge"
     # calculation: comp_gas = log(R_gas[ohm]) + 0.04 log(Ohm)/%rh * hum[%rh]
