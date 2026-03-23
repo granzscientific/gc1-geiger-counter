@@ -1,5 +1,5 @@
 packages:
-  granzscientific.bm1-base: !include base.yaml
+  granzscientific.gc1-base: !include base.yaml
 
 dashboard_import:
   package_import_url: github://granzscientific/gc1-geiger-counter/gs-gc1-geiger-counter.yaml

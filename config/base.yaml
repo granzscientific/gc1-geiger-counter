@@ -108,11 +108,6 @@ switch:
   # Factory reset switch (clear wifi credentials, etc)
   - platform: factory_reset
     name: "Factory Reset"
-  # Switch to power NTC to avoid battery drain when not being read
-  - platform: gpio
-    pin: GPIO3
-    id: ntc_pwr
-    internal: True # Hide from home assistant
 
 # Configure the PWM outputs to drive the boost converter and the buzzer
 # Note: We must specify channel to use for each output to avoid the buzzer out changing the boost converter frequency
