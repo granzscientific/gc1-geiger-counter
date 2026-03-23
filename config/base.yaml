@@ -1,5 +1,5 @@
 substitutions:
-  name: gs-gc1-geiger-counter
+  name: gs-gc1
   friendly_name: "GS GC1 Geiger Counter"
 
   # See https://esphome.io/components/esphome.html#esphome-creators-project
